@@ -1,0 +1,16 @@
+-Enemy ve Hero Classı direk olarak Alive Classından extent etmektedir
+
+-Bug , Lion ,zombie ve zombiedog classı enemy classından extent etmektedir
+
+-Hero Classı FightWithEnemy Interfacesnini implement etmektedir bu interface enemy classının böyle bir interface etmemesinin sebebi kendi aralarında değil 
+sadece Hero ile savaşmalarından kaynaklanmaktadır 
+
+-DecetionAndCreateAlives classındaki readScenario fonksiyonu scripti okuyup gerekli nesneneleri belirtilen özelliklerle oluşturur  ve ArrayList<Alive> tipindeki
+değişkene ekleyip listeyi döndürür
+
+
+-MainClass da ArrayList<Alive> tipindeki değişkenden hero alive sini çıkarır ve daha sonra bulundukları mesafeye göre sıralar yani heronun karşılacağı sıraya göre
+
+
+-Hero Classındaki starJourney isimli fonksiyon ArrayList<Enemy> tipindeki sıralı veri setini alıp hero nesnesi ile karşılaştırır ve loglama file write işlemlerini
+burdaki işlemlere göre yapar
